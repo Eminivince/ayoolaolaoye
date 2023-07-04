@@ -1,5 +1,5 @@
 import React from 'react'
-import Picture from '../Asset/Logo2.png'
+import Picture from '../Asset/ImageNFT.jpg'
 
 const Hero = () => {
   return (
@@ -53,7 +53,7 @@ const Hero = () => {
 
 
             <div className='basis-1-3'>
-                <img src={Picture} alt='Pic' className='w-[70%] mx-auto' />
+                <img src={Picture} alt='Pic' className='w-[70%] mx-auto rounded-full overflow-hidden' />
             </div>
                 
         </div>
