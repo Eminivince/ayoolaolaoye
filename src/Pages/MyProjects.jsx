@@ -40,7 +40,7 @@ const MyProjects = () => {
                     </div>
                     <h1 className='mb-8'>Xeleron is a groundbreaking <span className='text-green-200'>Decentralized Finance</span> hub that offers diverse range of products such as the ability to pool tokens, swap, farm, stake and launch tokens.
                     </h1>
-                    <div  >
+                    <div className='mb-8'>
                         <ul className='flex overflow-auto  cust--font md:text-base text-xs space-x-1 text-green-200 justify-end md:hidden'>
                             <li>Blockchain</li>
                             <li>Solidity</li>
@@ -49,6 +49,7 @@ const MyProjects = () => {
                             <li>TailwindCSS</li>
                         </ul>
                     </div>
+                    <button type='button' className='border p-2 border-green-200 hover:bg-slate-950 duration-200 rounded '>CHECK IT OUT!</button>
 
                 </div>
                 

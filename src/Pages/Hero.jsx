@@ -16,7 +16,7 @@ const Hero = () => {
             <p className='md:w-[70%] md:text-xl mb-10'>I am a lawyer, frontend and blockchain web developer. Currently, I'm focused on building smart contract in the <span className='text-green-300'>web3</span> space and developing fantastic <span className='text-green-300'>frontend</span> to enable seamless interaction while activily focusing on 
             <span className=' text-green-300'> responsiveness, accessibilty and secuirity</span>.</p>
 
-            <button type='button' className='py-3 px-20 border border-green-200 rounded text-green-200 hover:bg-slate-950'>Say Hello</button>
+            <button type='button' className='py-3 px-20 border border-green-200 rounded text-green-200 hover:bg-slate-950 duration-200'>Say Hello to Me 👋</button>
         </div>
 
         
