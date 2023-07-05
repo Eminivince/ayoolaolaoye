@@ -1,5 +1,6 @@
 import React from 'react'
 import Picture from '../Asset/ImageNFT.jpg'
+import MyProjects from './MyProjects'
 
 const Hero = () => {
   return (
@@ -22,18 +23,20 @@ const Hero = () => {
         
         
         
-        <div className='flex md:flex-row flex-col h-screen items-center md:space-x-10'>
+        <div className='flex md:flex-row flex-col md:h-screen items-center md:space-x-10'>
 
-            <div className='md:text-lg'>
-                <div className='flex w-[100%] items-center md:pb-10 pb-5 space-x-3 basis-2-3'>
+            <div className='md:w-[65%]'>
+                <div className='flex w-[100%] items-center md:pb-10 pb-5 space-x-3 basis-2/3'>
                     <span className='cust--font text-green-200'>01. </span>
                     <h1 className='md:text-3xl text-lg font-semibold'>About Me</h1>
                     <div></div>
                     <hr className='w-[60%]'/>
                 </div>
-                <h1 className='mb-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium inventore qui hic ipsum officia animi magnam fuga ex, temporibus nobis magni deleniti dolorum distinctio esse quasi voluptatum quis? Ea, ut.</h1>
-                <h1 className='mb-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium inventore qui hic ipsum officia animi magnam fuga ex, temporibus nobis magni deleniti dolorum distinctio esse quasi voluptatum quis? Ea, ut.</h1>
-                <h1 className='mb-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium inventore qui hic ipsum officia animi magnam fuga ex, temporibus nobis magni deleniti dolorum distinctio esse quasi voluptatum quis? Ea, ut.</h1>
+                
+                <h1 className='mb-3'>My journey into web development began with a curiosity for creating interactive and user-friendly interfaces. I have mastered the art of crafting elegant frontend experiences, paying special attention to responsiveness and accessibility. I believe that well-designed and intuitive user interfaces are key to enhancing user engagement and satisfaction.</h1>
+                <h1 className='mb-3'>In the dynamic field of blockchain technology, I am focused on building smart contracts and decentralized applications (dApps). I embrace the decentralized nature of blockchain networks and the potential they offer to transform industries. By leveraging my legal background and technical skills, I strive to create secure and efficient solutions that enable seamless interactions and foster trust in the decentralized ecosystem.</h1>
+                <h1 className='mb-3'>I am committed to continuous learning and staying up-to-date with the latest advancements in both law and technology. This allows me to adapt to evolving trends and leverage emerging tools and frameworks to deliver high-quality results.</h1>
+                <h1 className='mb-3'>I am passionate about collaborating with like-minded professionals and contributing to projects that have a positive impact. By combining my legal expertise, frontend development skills, and blockchain knowledge, I aim to drive innovation and empower individuals and businesses to navigate the digital landscape successfully.</h1>
 
                 <h1 className='mb-6'>Here are the few technologies I've been working with recently:</h1>
                 <div className='flex space-x-20 cust--font md:mb-0 mb-6'>
@@ -52,11 +55,13 @@ const Hero = () => {
             
 
 
-            <div className='basis-1-3'>
-                <img src={Picture} alt='Pic' className='w-[70%] mx-auto rounded-full overflow-hidden' />
+            <div className='basis-1/3 md:mt-0 mt-6'>
+                <img src={Picture} alt='Pic' className='mx-auto rounded-full overflow-hidden' />
             </div>
                 
         </div>
+
+        <MyProjects />
 
 
     </div>
