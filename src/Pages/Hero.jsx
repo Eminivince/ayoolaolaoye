@@ -4,9 +4,9 @@ import MyProjects from './MyProjects'
 
 const Hero = () => {
   return (
-    <div className='mt-24 mx-[5%] md:mx-[15%] pb-10'>
+    <div className='md:mt-24 mt-44 mx-[5%] md:mx-[15%] pb-10'>
         <div className='md:h-screen mb-[50%] md:mb-0'>
-            <p className='mb-4 text-green-200 cust--font md:text-xl'>
+            <p className='mb-4 text-green-300 cust--font md:text-xl'>
                 Hi, my name is
             </p>
             <h1 className='md:text-6xl text-2xl font-bold mb-4'>
@@ -16,7 +16,7 @@ const Hero = () => {
             <p className='md:w-[70%] md:text-xl mb-10'>I am a lawyer, frontend and blockchain web developer. Currently, I'm focused on building smart contract in the <span className='text-green-300'>web3</span> space and developing fantastic <span className='text-green-300'>frontend</span> to enable seamless interaction while activily focusing on 
             <span className=' text-green-300'> responsiveness, accessibilty and secuirity</span>.</p>
 
-            <button type='button' className='py-3 px-20 border border-green-200 rounded text-green-200 hover:bg-slate-950 duration-200'>Say Hello to Me 👋</button>
+            <button type='button' className='py-3 px-20 border border-green-300 rounded text-green-300 hover:bg-slate-950 duration-200'>Say Hello to Me 👋</button>
         </div>
 
         
@@ -27,7 +27,7 @@ const Hero = () => {
 
             <div className='md:w-[65%]'>
                 <div className='flex w-[100%] items-center md:pb-10 pb-5 space-x-3 basis-2/3'>
-                    <span className='cust--font text-green-200'>01. </span>
+                    <span className='cust--font text-green-300'>01. </span>
                     <h1 className='md:text-3xl text-lg font-semibold'>About Me</h1>
                     <div></div>
                     <hr className='w-[60%]'/>
@@ -40,12 +40,12 @@ const Hero = () => {
 
                 <h1 className='md:mb-6 mb-12'>Here are the few technologies I've been working with recently:</h1>
                 <div className='flex space-x-20 cust--font md:mb-0 mb-6'>
-                    <ul className='flex flex-col text-green-200 text-lg'>
+                    <ul className='flex flex-col text-green-300 text-lg'>
                         <l1 className='mb-2'>HTML</l1>
                         <l1 className='mb-2'>CSS</l1>
                         <l1 className='mb-2'>JavaScript (ES6+)</l1>
                     </ul>
-                    <ul className='flex flex-col text-green-200 text-lg'>
+                    <ul className='flex flex-col text-green-300 text-lg'>
                         <l1 className='mb-2'>React</l1>
                         <l1 className='mb-2'>TailwindCSS</l1>
                         <l1 className='mb-2'>Solidity</l1>
