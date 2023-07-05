@@ -5,7 +5,7 @@ import MyProjects from './MyProjects'
 const Hero = () => {
   return (
     <div className='mt-24 mx-[5%] md:mx-[15%] pb-10'>
-        <div className='h-screen'>
+        <div className='md:h-screen mb-[50%] md:mb-0'>
             <p className='mb-4 text-green-200 cust--font md:text-xl'>
                 Hi, my name is
             </p>
@@ -38,14 +38,14 @@ const Hero = () => {
                 <h1 className='mb-3 text-justify'>I am committed to continuous learning and staying up-to-date with the latest advancements in both law and technology. This allows me to adapt to evolving trends and leverage emerging tools and frameworks to deliver high-quality results.</h1>
                 <h1 className='mb-3 text-justify'>I am passionate about collaborating with like-minded professionals and contributing to projects that have a positive impact. By combining my legal expertise, frontend development skills, and blockchain knowledge, I aim to drive innovation and empower individuals and businesses to navigate the digital landscape successfully.</h1>
 
-                <h1 className='mb-6'>Here are the few technologies I've been working with recently:</h1>
+                <h1 className='md:mb-6 mb-12'>Here are the few technologies I've been working with recently:</h1>
                 <div className='flex space-x-20 cust--font md:mb-0 mb-6'>
-                    <ul className='flex flex-col text-green-200'>
+                    <ul className='flex flex-col text-green-200 text-lg'>
                         <l1 className='mb-2'>HTML</l1>
                         <l1 className='mb-2'>CSS</l1>
                         <l1 className='mb-2'>JavaScript (ES6+)</l1>
                     </ul>
-                    <ul className='flex flex-col text-green-200'>
+                    <ul className='flex flex-col text-green-200 text-lg'>
                         <l1 className='mb-2'>React</l1>
                         <l1 className='mb-2'>TailwindCSS</l1>
                         <l1 className='mb-2'>Solidity</l1>
