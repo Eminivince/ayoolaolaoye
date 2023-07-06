@@ -51,7 +51,10 @@ const MyProjects = () => {
                             <li>TailwindCSS</li>
                         </ul>
                     </div>
-                    <button type='button' className='border p-2 border-green-300 hover:bg-slate-950 duration-200 rounded '>CHECK IT OUT! 👀</button>
+                    <a href='https://xelerondeployment.vercel.app'>
+                        <button type='button' className='border p-2 border-green-300 hover:bg-slate-950 duration-200 rounded '>CHECK IT OUT! 👀</button>
+                    </a>
+                    
 
                 </div>
                 
