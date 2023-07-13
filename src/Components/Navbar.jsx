@@ -6,7 +6,7 @@ import { AiOutlineMenu } from 'react-icons/ai'
 
 
 const Navbar = () => {
-  const [navState, setnavState] = useState(false);
+  const [navState, setnavState] = useState(true);
 
   function handleMobileNav(){
     setnavState(!navState)
@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div className='flex cust--font justify-between lg:mx-10 md:mx-6 pt-10 md:items-center mx-6 relative'>
-        <img src={Logo} alt='logo' className='h-14 hover:-translate-x-1' onClick={handleMobileNav} />
+        <img src={Logo} alt='logo' className='h-14 hover:-translate-x-1'/>
 
         
 
@@ -28,7 +28,7 @@ const Navbar = () => {
 
         
                 
-        {navState && <div className='nav-links md:flex md:space-x-8 md:items-center md:opacity-100  absolute md:static  right-3 top-[90%] md:bg-slate-900 bg-slate-950 w-[50%] md:w-auto p-4 rounded space-y-4 md:space-y-0'>
+        {navState && <div className='nav-links md:flex md:space-x-8 md:items-center  absolute md:static  right-3 top-[90%] md:bg-slate-900 bg-slate-950 w-[50%] md:w-auto p-4 rounded space-y-4 md:space-y-0'>
             <ul className='nav--links md:flex md:space-x-8 z-[-1] md:z-auto md:static space-y-4 md:space-y-0'>
                 <li className='md:mt-0 mb-2'><span className='mr-1 text-green-300'>01.</span><a href='#'>About</a></li>
                 <li className='md:mt-0 mb-2'><span className='mr-1 text-green-300'>02.</span><a href='#'>Experience</a></li>
