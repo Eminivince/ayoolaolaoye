@@ -33,9 +33,9 @@ const Hero = () => {
                     <hr className='w-[60%]'/>
                 </div>
                 
-                <h1 className='mb-3 text-justify'>My journey into web development began with a curiosity for creating interactive and user-friendly interfaces. I have mastered the art of crafting elegant frontend experiences, paying special attention to responsiveness and accessibility. I believe that well-designed and intuitive user interfaces are key to enhancing user engagement and satisfaction.</h1>
+                <h1 className='mb-3 text-justify'>My journey into web development began with a curiosity for creating interactive and user-friendly interfaces. I have mastered the art of crafting elegant frontend experiences, paying special attention to responsiveness and accessibility.</h1>
                 <h1 className='mb-3 text-justify'>In the dynamic field of blockchain technology, I am focused on building smart contracts and decentralized applications (dApps). I embrace the decentralized nature of blockchain networks and the potential they offer to transform industries. By leveraging my legal background and technical skills, I strive to create secure and efficient solutions that enable seamless interactions and foster trust in the decentralized ecosystem.</h1>
-                <h1 className='mb-3 text-justify'>I am committed to continuous learning and staying up-to-date with the latest advancements in both law and technology. This allows me to adapt to evolving trends and leverage emerging tools and frameworks to deliver high-quality results.</h1>
+                
                 <h1 className='mb-3 text-justify'>I am passionate about collaborating with like-minded professionals and contributing to projects that have a positive impact. By combining my legal expertise, frontend development skills, and blockchain knowledge, I aim to drive innovation and empower individuals and businesses to navigate the digital landscape successfully.</h1>
 
                 <h1 className='md:mb-6 mb-12'>Here are the few technologies I've been working with recently:</h1>
