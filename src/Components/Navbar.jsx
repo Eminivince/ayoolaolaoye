@@ -37,7 +37,9 @@ const Navbar = () => {
             </ul>
 
 
-            <button type='button' className='border border-green-300 py-2 px-4 rounded md:hover:bg-slate-950 hover:bg-slate-800 duration-200 md:mt-0'>Resume</button>
+            <button type='button' className='border border-green-300 py-2 px-4 rounded md:hover:bg-slate-950 hover:bg-slate-800 duration-200 md:mt-0'>
+              <a href="https://github.com/Eminivince">GitHub</a>
+              </button>
         </div>}
         
         
